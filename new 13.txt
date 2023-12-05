@@ -1,0 +1,23 @@
+		
+Selector name	Xpath	css locator 
+HomeProfileNew postLogout	//a[@class='navbar-brand']	.navbar-brand
+Home	//a[@id='nav-link-home']	#nav-link-home
+Profile	//a[@id='nav-link-profile']	#nav-link-profile
+New post	//a[@id='nav-link-new-post']	#nav-link-new-post
+search icon	//form[@class='search-container form-inline my-2 my-lg-0 ng-untouched ng-pristine ng-valid ng-star-inserted']	.search-container.form-inline.my-2.my-lg-0.ng-untouched.ng-pristine.ng-valid.ng-star-inserted
+Search	//input[@id='search-bar']	#search-bar
+HomeProfileNew postLogout	//i[@class='fas fa-sign-out-alt fa-lg']	.fas.fa-sign-out-alt.fa-lg
+upload-img	//input[@id='upload-img']	#upload-img
+termalgin	"
+//div[@class='col-12 col-lg-6 profile-user-settings']"	"
+.col-12.col-lg-6.profile-user-settings"
+termalgin	//i[@class='fas fa-user-edit ng-star-inserted']	.fas.fa-user-edit.ng-star-inserted
+0 posts	//div[@class='container-fluid']//li[1]	div[class='container-fluid'] li:nth-child(1)
+0 followers	//li[@id='followers']	#followers
+0 following	//li[@id='following']	#following
+All	//label[normalize-space()='All']	.btn-all.btn.btn-primary
+Public	//label[normalize-space()='Public']	.btn-public.btn.btn-primary.active
+Private	//label[normalize-space()='Private']	.btn-private.btn.btn-primary
+New post	//div[@class='row justify-content-center no-posts-container ng-star-inserted']	.row.justify-content-center.no-posts-container.ng-star-inserted
+New post	//div[@class='posts-not-found-container ng-star-inserted']//a	div[class='posts-not-found-container ng-star-inserted'] a
+plus icon	//i[@class='far fa-plus-square fa-3x']	.far.fa-plus-square.fa-3x
